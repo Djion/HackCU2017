@@ -17,6 +17,7 @@
 		D24EFA071EAC0B05002D9953 /* DawwgsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EFA061EAC0B05002D9953 /* DawwgsTests.swift */; };
 		D24EFA121EAC0B05002D9953 /* DawwgsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EFA111EAC0B05002D9953 /* DawwgsUITests.swift */; };
 		D24EFA201EAC166F002D9953 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */; };
+		D280B1321EAC1C75001D7DCA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280B1311EAC1C75001D7DCA /* Home.swift */; };
 		D3CCF5615744C0155003DA23 /* Pods_DawwgsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3301EE527CA8263FD80FFD7 /* Pods_DawwgsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		D24EFA111EAC0B05002D9953 /* DawwgsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawwgsUITests.swift; sourceTree = "<group>"; };
 		D24EFA131EAC0B06002D9953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D280B1311EAC1C75001D7DCA /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		EE78A66F7F5BD3B0E9C84E22 /* Pods-Dawwgs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawwgs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dawwgs/Pods-Dawwgs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 				D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */,
 				D24EF9F31EAC0B05002D9953 /* ViewController.swift */,
 				D24EF9F51EAC0B05002D9953 /* Main.storyboard */,
+				D280B1311EAC1C75001D7DCA /* Home.swift */,
 				D24EF9F81EAC0B05002D9953 /* Assets.xcassets */,
 				D24EF9FA1EAC0B05002D9953 /* LaunchScreen.storyboard */,
 				D24EF9FD1EAC0B05002D9953 /* Info.plist */,
@@ -454,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24EF9F41EAC0B05002D9953 /* ViewController.swift in Sources */,
+				D280B1321EAC1C75001D7DCA /* Home.swift in Sources */,
 				D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +717,7 @@
 				D24EFA181EAC0B06002D9953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24EFA191EAC0B06002D9953 /* Build configuration list for PBXNativeTarget "DawwgsTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +726,7 @@
 				D24EFA1B1EAC0B06002D9953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24EFA1C1EAC0B06002D9953 /* Build configuration list for PBXNativeTarget "DawwgsUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +735,7 @@
 				D24EFA1E1EAC0B06002D9953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
