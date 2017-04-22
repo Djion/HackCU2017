@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6ED53A87690DD3895C5E650A1DB82019EECA807F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6ED53A87690DD3895C5E650A1DB82019EECA807F" : 9223372036854775807,
+    "C020AFBAB4DF0282F18B50D21AA873171D495BB6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "546E4D8F-D38C-450C-AFFC-5C434F80CBD3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6ED53A87690DD3895C5E650A1DB82019EECA807F" : "HackCU2017\/",
+    "C020AFBAB4DF0282F18B50D21AA873171D495BB6" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Dawwgs",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dawwgs\/Dawwgs.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Djion\/HackCU2017.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6ED53A87690DD3895C5E650A1DB82019EECA807F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mnelso12\/toasties.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C020AFBAB4DF0282F18B50D21AA873171D495BB6"
+    }
+  ]
+}
