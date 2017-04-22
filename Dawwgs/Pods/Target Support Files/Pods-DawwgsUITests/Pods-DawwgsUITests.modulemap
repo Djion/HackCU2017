@@ -1,0 +1,6 @@
+framework module Pods_DawwgsUITests {
+  umbrella header "Pods-DawwgsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

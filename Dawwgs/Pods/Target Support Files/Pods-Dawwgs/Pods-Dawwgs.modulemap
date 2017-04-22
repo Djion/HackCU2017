@@ -1,0 +1,6 @@
+framework module Pods_Dawwgs {
+  umbrella header "Pods-Dawwgs-umbrella.h"
+
+  export *
+  module * { export * }
+}
