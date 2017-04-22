@@ -16,8 +16,8 @@
 		D24EF9FC1EAC0B05002D9953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24EF9FA1EAC0B05002D9953 /* LaunchScreen.storyboard */; };
 		D24EFA071EAC0B05002D9953 /* DawwgsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EFA061EAC0B05002D9953 /* DawwgsTests.swift */; };
 		D24EFA121EAC0B05002D9953 /* DawwgsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EFA111EAC0B05002D9953 /* DawwgsUITests.swift */; };
-		D24EFA201EAC166F002D9953 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */; };
 		D280B1321EAC1C75001D7DCA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280B1311EAC1C75001D7DCA /* Home.swift */; };
+		D280B1341EAC259C001D7DCA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D280B1331EAC259C001D7DCA /* GoogleService-Info.plist */; };
 		D3CCF5615744C0155003DA23 /* Pods_DawwgsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3301EE527CA8263FD80FFD7 /* Pods_DawwgsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +60,8 @@
 		D24EFA0D1EAC0B05002D9953 /* DawwgsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawwgsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EFA111EAC0B05002D9953 /* DawwgsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawwgsUITests.swift; sourceTree = "<group>"; };
 		D24EFA131EAC0B06002D9953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D280B1311EAC1C75001D7DCA /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D280B1331EAC259C001D7DCA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EE78A66F7F5BD3B0E9C84E22 /* Pods-Dawwgs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawwgs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dawwgs/Pods-Dawwgs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,8 +147,8 @@
 				D280B1311EAC1C75001D7DCA /* Home.swift */,
 				D24EF9F81EAC0B05002D9953 /* Assets.xcassets */,
 				D24EF9FA1EAC0B05002D9953 /* LaunchScreen.storyboard */,
+				D280B1331EAC259C001D7DCA /* GoogleService-Info.plist */,
 				D24EF9FD1EAC0B05002D9953 /* Info.plist */,
-				D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */,
 			);
 			path = Dawwgs;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24EF9FC1EAC0B05002D9953 /* LaunchScreen.storyboard in Resources */,
-				D24EFA201EAC166F002D9953 /* GoogleService-Info.plist in Resources */,
+				D280B1341EAC259C001D7DCA /* GoogleService-Info.plist in Resources */,
 				D24EF9F91EAC0B05002D9953 /* Assets.xcassets in Resources */,
 				D24EF9F71EAC0B05002D9953 /* Main.storyboard in Resources */,
 			);
