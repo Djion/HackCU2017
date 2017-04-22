@@ -60,7 +60,7 @@
 		D24EFA0D1EAC0B05002D9953 /* DawwgsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawwgsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EFA111EAC0B05002D9953 /* DawwgsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawwgsUITests.swift; sourceTree = "<group>"; };
 		D24EFA131EAC0B06002D9953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D24EFA1F1EAC166F002D9953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D280B1311EAC1C75001D7DCA /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		EE78A66F7F5BD3B0E9C84E22 /* Pods-Dawwgs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawwgs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dawwgs/Pods-Dawwgs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
