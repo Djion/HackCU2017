@@ -11,6 +11,9 @@
 		45C32F2C1EAC6A1D0004B9F0 /* puppersincostume.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C32F2B1EAC6A1D0004B9F0 /* puppersincostume.png */; };
 		45C32F2E1EAC6C5F0004B9F0 /* costumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C32F2D1EAC6C5F0004B9F0 /* costumeController.swift */; };
 		6B4330EBB4FB9B5B273F10B9 /* Pods_Dawwgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350280130D2687E4B11B4050 /* Pods_Dawwgs.framework */; };
+		D22D72E41EAC7C3400B74857 /* MenuBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D72E31EAC7C3400B74857 /* MenuBarTableViewController.swift */; };
+		D22D72E61EAC832700B74857 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D72E51EAC832700B74857 /* DetailViewController.swift */; };
+		D22D72E81EAC84C000B74857 /* cuteDascshund.png in Resources */ = {isa = PBXBuildFile; fileRef = D22D72E71EAC84C000B74857 /* cuteDascshund.png */; };
 		D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */; };
 		D24EF9F41EAC0B05002D9953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EF9F31EAC0B05002D9953 /* ViewController.swift */; };
 		D24EF9F71EAC0B05002D9953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24EF9F51EAC0B05002D9953 /* Main.storyboard */; };
@@ -51,6 +54,9 @@
 		B3301EE527CA8263FD80FFD7 /* Pods_DawwgsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawwgsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED7EC4AC381A246BE37FEF2 /* Pods-DawwgsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawwgsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DawwgsUITests/Pods-DawwgsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C594B0FB9A9D4377EDE24401 /* Pods-DawwgsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawwgsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DawwgsTests/Pods-DawwgsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D22D72E31EAC7C3400B74857 /* MenuBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarTableViewController.swift; sourceTree = "<group>"; };
+		D22D72E51EAC832700B74857 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D22D72E71EAC84C000B74857 /* cuteDascshund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteDascshund.png; sourceTree = SOURCE_ROOT; };
 		D24EF9EE1EAC0B05002D9953 /* Dawwgs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawwgs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24EF9F31EAC0B05002D9953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,11 +154,14 @@
 				D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */,
 				D24EF9F31EAC0B05002D9953 /* ViewController.swift */,
 				D24EF9F51EAC0B05002D9953 /* Main.storyboard */,
+				D22D72E31EAC7C3400B74857 /* MenuBarTableViewController.swift */,
+				D22D72E51EAC832700B74857 /* DetailViewController.swift */,
 				D280B1311EAC1C75001D7DCA /* Home.swift */,
 				D24EF9F81EAC0B05002D9953 /* Assets.xcassets */,
 				D24EF9FA1EAC0B05002D9953 /* LaunchScreen.storyboard */,
 				D280B1331EAC259C001D7DCA /* GoogleService-Info.plist */,
 				D24EF9FD1EAC0B05002D9953 /* Info.plist */,
+				D22D72E71EAC84C000B74857 /* cuteDascshund.png */,
 				45C32F2B1EAC6A1D0004B9F0 /* puppersincostume.png */,
 				45C32F2D1EAC6C5F0004B9F0 /* costumeController.swift */,
 			);
@@ -298,6 +307,7 @@
 			files = (
 				45C32F2C1EAC6A1D0004B9F0 /* puppersincostume.png in Resources */,
 				D24EF9FC1EAC0B05002D9953 /* LaunchScreen.storyboard in Resources */,
+				D22D72E81EAC84C000B74857 /* cuteDascshund.png in Resources */,
 				D280B1341EAC259C001D7DCA /* GoogleService-Info.plist in Resources */,
 				D24EF9F91EAC0B05002D9953 /* Assets.xcassets in Resources */,
 				D24EF9F71EAC0B05002D9953 /* Main.storyboard in Resources */,
@@ -466,6 +476,8 @@
 				D24EF9F41EAC0B05002D9953 /* ViewController.swift in Sources */,
 				D280B1321EAC1C75001D7DCA /* Home.swift in Sources */,
 				45C32F2E1EAC6C5F0004B9F0 /* costumeController.swift in Sources */,
+				D22D72E61EAC832700B74857 /* DetailViewController.swift in Sources */,
+				D22D72E41EAC7C3400B74857 /* MenuBarTableViewController.swift in Sources */,
 				D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
