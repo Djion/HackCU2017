@@ -8,6 +8,9 @@
 
 import UIKit
 
+import Firebase
+import FirebaseStorage
+import FirebaseStorageUI
 class MenuBarTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -40,8 +43,13 @@ class MenuBarTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let dequeued = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
+        let storage = FIRStorage.storage()
+        let storageRef = storage.reference()
+        let reference = storageRef.child("images/cute_pupper.jpg")
+
         
-        dequeued.theLabel.text = "Hello World"
+        dequeued.dogPhoto.sd_setImage(with: reference)
+        
         let cell = dequeued
 
         // Configure the cell...

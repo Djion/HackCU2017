@@ -55,20 +55,20 @@
         <scene sceneID="XrI-Z8-Ve7">
             <objects>
                 <tableViewController id="b7W-1P-5mO" customClass="MenuBarTableViewController" customModule="Dawwgs" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="28" sectionFooterHeight="28" id="sAT-Jz-czu">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="389" sectionHeaderHeight="28" sectionFooterHeight="28" id="sAT-Jz-czu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="99" id="rND-Uw-aCW" customClass="ItemCell" customModule="Dawwgs" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="99"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="389" id="rND-Uw-aCW" customClass="ItemCell" customModule="Dawwgs" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="389"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rND-Uw-aCW" id="t3t-g2-QJa">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="388"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r9S-Nq-ZOr">
-                                            <rect key="frame" x="87" y="-15" width="240" height="128"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r9S-Nq-ZOr">
+                                            <rect key="frame" x="38" y="23" width="338" height="357"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
@@ -87,7 +87,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W2k-pp-KXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1088" y="-879"/>
+            <point key="canvasLocation" x="-1088.4057971014493" y="-879.61956521739137"/>
         </scene>
         <!--Costumes-->
         <scene sceneID="JXo-VG-k0o">
