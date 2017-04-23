@@ -10,12 +10,16 @@ import UIKit
 
 import Firebase
 import FirebaseStorage
+import FirebaseDatabase
 import FirebaseStorageUI
 class MenuBarTableViewController: UITableViewController {
+    
+    var items:[DogItem] = []
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         tableView.reloadData()
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +28,21 @@ class MenuBarTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        let ref = FIRDatabase.database().reference(withPath: "recent")
+        
+        var newItems: [DogItem] = []
+        
+        ref.observe(.value, with: { snapshot in
+            
+            
+            for item in snapshot.children {
+                // 4
+                let dogItem = DogItem(snapshot: item as! FIRDataSnapshot)
+                newItems.append(dogItem)
+            }
+            self.items = newItems
+            self.tableView.reloadData()
+        })
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,22 +52,20 @@ class MenuBarTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 1
+        return items.count
     }
-
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let dequeued = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
-        let storage = FIRStorage.storage()
-        let storageRef = storage.reference()
-        let reference = storageRef.child("images/cute_pupper.jpg")
-
         
-        dequeued.dogPhoto.sd_setImage(with: reference)
+        let dogItem = items[indexPath.row]
+        let storage = FIRStorage.storage()
+        let storageRef = storage.reference(forURL: dogItem.photoURL)
+       
+       
+        
+        dequeued.dogPhoto.sd_setImage(with: storageRef)
         
         let cell = dequeued
 

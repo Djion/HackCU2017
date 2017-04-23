@@ -9,6 +9,7 @@ target 'Dawwgs' do
   pod 'Firebase/Core'
   pod 'Firebase/Storage'
   pod 'FirebaseUI/Storage'
+  pod 'Firebase/Database'
   platform :ios, '8.0'
 
   target 'DawwgsTests' do
