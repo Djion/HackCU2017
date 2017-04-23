@@ -9,7 +9,10 @@
 import UIKit
 
 class MenuBarTableViewController: UITableViewController {
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        tableView.reloadData()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,23 +30,18 @@ class MenuBarTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }
+
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return 1
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let dequeued = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! ItemCell
-        let options = ["Home", "Login", "Categories"]
+        let dequeued = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
         
-        dequeued.categoriesLabel.text = options[indexPath.row]
-        
+        dequeued.theLabel.text = "Hello World"
         let cell = dequeued
 
         // Configure the cell...

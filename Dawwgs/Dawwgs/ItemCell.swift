@@ -9,10 +9,10 @@
 import UIKit
 
 class ItemCell: UITableViewCell{
-    @IBOutlet var categoriesLabel: UILabel!
+
+    @IBOutlet var dogPhoto: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        categoriesLabel.adjustsFontForContentSizeCategory = true
     }
 }
