@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3621B4608B474CD1935F42B9 /* Pods_DawwgsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95F4103491CD85EF49C9466 /* Pods_DawwgsTests.framework */; };
+		45C32F2C1EAC6A1D0004B9F0 /* puppersincostume.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C32F2B1EAC6A1D0004B9F0 /* puppersincostume.png */; };
+		45C32F2E1EAC6C5F0004B9F0 /* costumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C32F2D1EAC6C5F0004B9F0 /* costumeController.swift */; };
 		6B4330EBB4FB9B5B273F10B9 /* Pods_Dawwgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350280130D2687E4B11B4050 /* Pods_Dawwgs.framework */; };
 		D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */; };
 		D24EF9F41EAC0B05002D9953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EF9F31EAC0B05002D9953 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		07A1BF2B5945DEECF5D23F99 /* Pods-DawwgsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawwgsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DawwgsUITests/Pods-DawwgsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2ABE2821C788554EE2CB2048 /* Pods-Dawwgs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawwgs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dawwgs/Pods-Dawwgs.release.xcconfig"; sourceTree = "<group>"; };
 		350280130D2687E4B11B4050 /* Pods_Dawwgs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dawwgs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C32F2B1EAC6A1D0004B9F0 /* puppersincostume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppersincostume.png; sourceTree = "<group>"; };
+		45C32F2D1EAC6C5F0004B9F0 /* costumeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = costumeController.swift; sourceTree = "<group>"; };
 		678E1864D7A566D4AE82C34C /* Pods-DawwgsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawwgsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DawwgsTests/Pods-DawwgsTests.release.xcconfig"; sourceTree = "<group>"; };
 		A95F4103491CD85EF49C9466 /* Pods_DawwgsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawwgsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3301EE527CA8263FD80FFD7 /* Pods_DawwgsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawwgsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +153,8 @@
 				D24EF9FA1EAC0B05002D9953 /* LaunchScreen.storyboard */,
 				D280B1331EAC259C001D7DCA /* GoogleService-Info.plist */,
 				D24EF9FD1EAC0B05002D9953 /* Info.plist */,
+				45C32F2B1EAC6A1D0004B9F0 /* puppersincostume.png */,
+				45C32F2D1EAC6C5F0004B9F0 /* costumeController.swift */,
 			);
 			path = Dawwgs;
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C32F2C1EAC6A1D0004B9F0 /* puppersincostume.png in Resources */,
 				D24EF9FC1EAC0B05002D9953 /* LaunchScreen.storyboard in Resources */,
 				D280B1341EAC259C001D7DCA /* GoogleService-Info.plist in Resources */,
 				D24EF9F91EAC0B05002D9953 /* Assets.xcassets in Resources */,
@@ -458,6 +465,7 @@
 			files = (
 				D24EF9F41EAC0B05002D9953 /* ViewController.swift in Sources */,
 				D280B1321EAC1C75001D7DCA /* Home.swift in Sources */,
+				45C32F2E1EAC6C5F0004B9F0 /* costumeController.swift in Sources */,
 				D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
