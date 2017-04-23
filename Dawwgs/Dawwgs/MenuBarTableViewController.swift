@@ -39,10 +39,10 @@ class MenuBarTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let dequeued = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! UITableViewCell
+        let dequeued = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! ItemCell
         let options = ["Home", "Login", "Categories"]
         
-        dequeued.textLabel?.text = options[indexPath.row]
+        dequeued.categoriesLabel.text = options[indexPath.row]
         
         let cell = dequeued
 

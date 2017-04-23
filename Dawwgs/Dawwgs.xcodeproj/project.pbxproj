@@ -14,6 +14,7 @@
 		D22D72E41EAC7C3400B74857 /* MenuBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D72E31EAC7C3400B74857 /* MenuBarTableViewController.swift */; };
 		D22D72E61EAC832700B74857 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D72E51EAC832700B74857 /* DetailViewController.swift */; };
 		D22D72E81EAC84C000B74857 /* cuteDascshund.png in Resources */ = {isa = PBXBuildFile; fileRef = D22D72E71EAC84C000B74857 /* cuteDascshund.png */; };
+		D22D72EA1EAC914B00B74857 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D72E91EAC914B00B74857 /* ItemCell.swift */; };
 		D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */; };
 		D24EF9F41EAC0B05002D9953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EF9F31EAC0B05002D9953 /* ViewController.swift */; };
 		D24EF9F71EAC0B05002D9953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24EF9F51EAC0B05002D9953 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		D22D72E31EAC7C3400B74857 /* MenuBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarTableViewController.swift; sourceTree = "<group>"; };
 		D22D72E51EAC832700B74857 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D22D72E71EAC84C000B74857 /* cuteDascshund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteDascshund.png; sourceTree = SOURCE_ROOT; };
+		D22D72E91EAC914B00B74857 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		D24EF9EE1EAC0B05002D9953 /* Dawwgs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawwgs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EF9F11EAC0B05002D9953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24EF9F31EAC0B05002D9953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				D24EF9F31EAC0B05002D9953 /* ViewController.swift */,
 				D24EF9F51EAC0B05002D9953 /* Main.storyboard */,
 				D22D72E31EAC7C3400B74857 /* MenuBarTableViewController.swift */,
+				D22D72E91EAC914B00B74857 /* ItemCell.swift */,
 				D22D72E51EAC832700B74857 /* DetailViewController.swift */,
 				D280B1311EAC1C75001D7DCA /* Home.swift */,
 				D24EF9F81EAC0B05002D9953 /* Assets.xcassets */,
@@ -477,6 +480,7 @@
 				D280B1321EAC1C75001D7DCA /* Home.swift in Sources */,
 				45C32F2E1EAC6C5F0004B9F0 /* costumeController.swift in Sources */,
 				D22D72E61EAC832700B74857 /* DetailViewController.swift in Sources */,
+				D22D72EA1EAC914B00B74857 /* ItemCell.swift in Sources */,
 				D22D72E41EAC7C3400B74857 /* MenuBarTableViewController.swift in Sources */,
 				D24EF9F21EAC0B05002D9953 /* AppDelegate.swift in Sources */,
 			);
