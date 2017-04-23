@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         let reference = storageRef.child("images/cute_pupper.jpg")
         let imageView = self.frontImage
         
-        
         frontImage.sd_setImage(with: reference)
         
     }
