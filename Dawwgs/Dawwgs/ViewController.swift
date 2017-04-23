@@ -7,13 +7,29 @@
 //
 
 import UIKit
+import FirebaseStorage
+import FirebaseStorageUI
 
 class ViewController: UIViewController {
 
     @IBOutlet var frontImage: UIImageView!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let storage = FIRStorage.storage()
+        let storageRef = storage.reference()
+        let reference = storageRef.child("images/cute_pupper.jpg")
+        let imageView = self.frontImage
+        
+        
+        frontImage.sd_setImage(with: reference)
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
     }
 
     override func didReceiveMemoryWarning() {

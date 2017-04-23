@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseStorageUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

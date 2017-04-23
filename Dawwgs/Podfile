@@ -7,6 +7,10 @@ target 'Dawwgs' do
 
   # Pods for Dawwgs
   pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'FirebaseUI/Storage'
+  platform :ios, '8.0'
+
   target 'DawwgsTests' do
     inherit! :search_paths
     # Pods for testing
